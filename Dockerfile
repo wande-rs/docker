@@ -8,4 +8,5 @@ RUN apt-get update && apt-get install -y \
   libxss1 \
   libasound2 \
   xvfb \
+  git \
   && rm -rf /var/lib/apt/lists/*
